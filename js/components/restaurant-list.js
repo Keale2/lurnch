@@ -11,6 +11,7 @@ export default class RestaurantList extends React.Component {
                 key={restaurant.id} 
                 name={restaurant.name} 
                 address={restaurant.address} 
+                map={restaurant.map} 
                 website={restaurant.website}>
             </Restaurant>
             );
