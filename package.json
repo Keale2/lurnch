@@ -1,0 +1,26 @@
+{
+  "name": "lurnch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keale2/lurnch.git"
+  },
+  "author": "Kyle Wagner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Keale2/lurnch/issues"
+  },
+  "homepage": "https://github.com/Keale2/lurnch#readme",
+  "devDependencies": {
+    "@unumux/ux-build-tools": "^3.1.2"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
