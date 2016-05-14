@@ -12,5 +12,12 @@
         "address": "150 Harbison Blvd, Columbia, SC 29212",
         "map": "https://goo.gl/maps/cYMShhStUfE2",
         "website": "http://www.sc05.tropicalsmoothie.com/"
+    },
+    {
+        "id": 3,
+        "name": "Tsunami Japanese Restaurant",
+        "address": "1290 Bower Pkwy, Columbia, SC 29212",
+        "map": "https://goo.gl/maps/HEdz71pDSB22",
+        "website": "http://tsunamicompany.com/"
     }
 ]
