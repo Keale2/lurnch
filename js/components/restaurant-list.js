@@ -2,8 +2,6 @@ import React from "react";
 import Restaurant from "./restaurant";
 
 export default function RestaurantList({data}) {
-    console.log(data);
-    console.log(typeof data);
     let restaurants = data.map(function(restaurant) {
         return (
         <Restaurant 
