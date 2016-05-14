@@ -1,26 +1,22 @@
 import React from "react";
 import Restaurant from "./restaurant";
 
-export default class RestaurantList extends React.Component {
-
-    render() {
-        
-        let restaurants = this.props.data.map(function(restaurant) {
-            return (
-            <Restaurant 
-                key={restaurant.id} 
-                name={restaurant.name} 
-                address={restaurant.address} 
-                map={restaurant.map} 
-                website={restaurant.website}>
-            </Restaurant>
-            );
-        });
-
+export default function RestaurantList({data}) {
+    let restaurants = data.map(function(restaurant) {
         return (
-        <div className="restaurants">
-            {restaurants}
-        </div>
+        <Restaurant 
+            key={restaurant.id} 
+            name={restaurant.name} 
+            address={restaurant.address} 
+            map={restaurant.map} 
+            website={restaurant.website}>
+        </Restaurant>
         );
-    }
-}
+    });
+
+    return (
+    <div className="restaurants">
+        {restaurants}
+    </div>
+    );
+ }

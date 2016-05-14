@@ -1,7 +1,3 @@
-// Main JS should go here!
-// Include scripts using Browserify by doing:
-// var $ = require("jquery");
-
 import React from "react";
 import ReactDOM from "react-dom";
 import restaurantData from "./restaurantData";
