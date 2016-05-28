@@ -19,5 +19,12 @@
         "address": "1290 Bower Pkwy, Columbia, SC 29212",
         "map": "https://goo.gl/maps/HEdz71pDSB22",
         "website": "http://tsunamicompany.com/"
+    },
+    {
+        "id": 4,
+        "name": "Black Bean Co",
+        "address": "701 Gervais St, Columbia, SC 29201",
+        "map": "https://goo.gl/maps/T3Wyf6TWGK72",
+        "website": "http://www.blackbeanco.com/"
     }
 ]
